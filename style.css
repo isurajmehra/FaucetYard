@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgb(218, 214, 214);
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-top: 20px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 240px;
+    display: ;
+}
+
+.DOGE{
+    height: 90px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.BTC{
+    height: 90px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.BCH{
+    height: 90px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.LTC{
+    height: 90px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.faucet-list{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: orangered;
+}
+
+.faucet-page{
+    display: flex;
+    justify-content: center;
+}
+.faucet-frame{
+    height: 70vh;
+    width: 50vw;
+}
