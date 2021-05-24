@@ -23,30 +23,36 @@
 
 .logo{
     cursor: pointer;
-    width: 240px;
+    width: 150px;
     display: ;
 }
 
 .DOGE{
-    height: 90px;
+    height: 40px;
     cursor: pointer;
     margin-left: 10px;
 }
 
 .BTC{
-    height: 90px;
+    height: 40px;
     cursor: pointer;
     margin-left: 10px;
 }
 
 .BCH{
-    height: 90px;
+    height: 40px;
     cursor: pointer;
     margin-left: 10px;
 }
 
 .LTC{
-    height: 90px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dash{
+    height: 40px;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -57,6 +63,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: 20px;
+    flex-wrap: wrap;
 }
 
 
@@ -68,7 +77,8 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     border: 2px solid black;
-    padding: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
     color: black;
 }
 
@@ -79,9 +89,11 @@ nav ul li a:hover{
 
 .faucet-page{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .faucet-frame{
-    height: 70vh;
-    width: 50vw;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    bottom: 25px;
 }
