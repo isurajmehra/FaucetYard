@@ -12,14 +12,14 @@ function ChangeURL1() {
 }
 
 function ChangeURL2() {
-    faucet.src = "https://dogebuzz.com/?ref=186677";
+    faucet.src = "https://coinsearns.com/doge/?r=DRMcDzCG3AHVfY7nBuVbZc6xMpJJHsFJ1X";
     site1.style.background = "";
     site2.style.background = "red";
     site3.style.background = "";
 }
 
 function ChangeURL3() {
-    faucet.src = "https://litecoinpay.co/doge/?r=DRMcDzCG3AHVfY7nBuVbZc6xMpJJHsFJ1X";
+    faucet.src = "http://indogewetrust.com/";
     site1.style.background = "";
     site2.style.background = "";
     site3.style.background = "red";
